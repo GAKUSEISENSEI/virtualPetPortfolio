@@ -1,0 +1,32 @@
+.contact {
+  margin-top: 10%;
+  border-radius: 20px;
+  margin-left: 43%;
+  transition: 1s;
+  max-width: 250px;
+  background: #f5f6f7;
+}
+.contact:hover {
+  background-color: #d8dadc;
+  border-radius: 70px;
+  transition: 1s;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+li {
+  margin-top: 20px;
+}
+
+.contacts {
+  margin-top: 100px;
+}
+.gh {
+  position: relative;
+  right: 10px;
+}

@@ -1,0 +1,72 @@
+.pet-page {
+  margin-left: 50%;
+}
+.img-stats-block {
+  transition: 1s;
+  display: flex;
+}
+.game-title {
+  font-size: 70px;
+  margin: 10px 20px;
+  font-family: cursive;
+  cursor: pointer;
+  width: 215px;
+  transition: 1s;
+}
+.game-title:hover {
+  background-color: #d8dadc;
+  transition: 1s;
+  border-radius: 40px;
+}
+.stats {
+  position: relative;
+  right: 100px;
+  height: 20%;
+  transition: 1s;
+  border-radius: 10px;
+}
+.stats-text {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+.stats:hover {
+  background-color: #d8dadc;
+  transition: 1s;
+  border-radius: 50px;
+}
+.img {
+  top: 237px;
+  width: 50%;
+  height: 50%;
+  border-radius: 30px;
+  transition: 1s ease-in-out;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+.img:hover {
+  transform: translate(-50%, -50%) scale(1.04);
+}
+.btns {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  margin-left: 33%;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  transition: 1s;
+  font-size: 20px;
+}
+.btn:hover {
+  transition: 1s;
+  background-color: #d8dadc;
+  border-radius: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,59 @@
+.faucet {
+  margin-top: 7%;
+  border-radius: 20px;
+  margin-left: 3%;
+  margin-right: 3%;
+  transition: 1s;
+  background: #f5f6f7;
+}
+.faucet:hover {
+  background-color: #d8dadc;
+  border-radius: 70px;
+  transition: 1s;
+}
+h2 {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.title-faucet {
+  margin-top: 100px;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+.faucet-input {
+  margin-left: 25%;
+  border: none;
+  width: 50%;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #d8dadc;
+  transition: 1s;
+}
+.faucet-input:hover {
+  background-color: #a2a2a4;
+}
+p {
+  text-align: center;
+}
+.btn-fct {
+  transition: 1s;
+  font-size: 20px;
+  position: relative;
+  left: 44%;
+  width: 150px;
+}
+.btn-fct:hover {
+  transition: 1s;
+  background-color: #a2a2a4;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.withdraw-error {
+  text-align: center;
+}
+.withdraw-success {
+  text-align: center;
+}

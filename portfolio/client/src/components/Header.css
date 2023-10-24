@@ -1,0 +1,94 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 1s;
+  background: #f5f6f7;
+  border-radius: 10px;
+  box-shadow: #1c1c1e;
+}
+.header:hover {
+  background-color: #d8dadc;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.header > div {
+  margin: 10px;
+}
+.head {
+  text-align: center;
+  font-family: cursive;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.navBar {
+  background-color: #1c1c1e;
+  height: 50 px;
+  flex: 1;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+}
+.searchInput {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  outline: none;
+  color: wheat;
+  font-size: 16px;
+}
+.navIcon {
+  margin: 9px;
+}
+.pagesButtons {
+  width: 42px;
+  margin: 10px;
+  height: 50px;
+  transition: 0.5s;
+
+  border: none;
+  background-color: transparent;
+}
+.pagesButtons:hover {
+  background-color: white;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.pagesButtons:hover {
+  cursor: pointer;
+}
+
+.contactButton {
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  margin: 10px;
+  width: 130px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.contactButton:hover {
+  cursor: pointer;
+  background-color: #c1c2c4;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.contactText {
+  margin: 7px;
+  height: 50px;
+  outline: none;
+}
+.a:link {
+  text-decoration: none;
+}
+.a:visited {
+  text-decoration: none;
+}
+.a:hover {
+  text-decoration: none;
+}
+.a:active {
+  text-decoration: none;
+}
